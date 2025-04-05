@@ -47,17 +47,15 @@ print("\033[4;32mUnderlined Green Text\033[0m")  # Underlined Green
 If you don't reset the formatting, the applied style may affect all subsequent terminal text.
 
 ❌ Without Reset:
-python
-Copy
-Edit
+
 print("\033[1mBold Text!")
 print("Normal Text")  # This will also appear bold!
+
 ✅ With Reset:
-python
-Copy
-Edit
+
 print("\033[1mBold Text!\033[0m")
 print("Normal Text")  # Back to normal
+
 🎨 More Color Codes
 Code	Color
 \033[30m	Black
@@ -68,6 +66,7 @@ Code	Color
 \033[35m	Magenta
 \033[36m	Cyan
 \033[37m	White
+
 ✅ Conclusion
 ANSI escape codes offer a simple, powerful way to enhance your terminal output:
 
